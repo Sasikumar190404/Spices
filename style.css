@@ -48,6 +48,7 @@ section {
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
+    overflow:hidden;
 }
 
 #home {
@@ -56,6 +57,7 @@ section {
     background-size: cover;
     background-position: center;
     flex-direction: column;
+    overflow:hidden;
 }
 
 #home h1 {
@@ -139,5 +141,6 @@ section {
     box-shadow: 0px 0px 10px black;
     align-items: center;
 }
+
 
 
