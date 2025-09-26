@@ -1,0 +1,151 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+body {
+    overflow-x: hidden;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+#navbar {
+    position: sticky;
+    top: 0;
+    left: 0;
+    z-index: 1;
+    padding: 20px 20px;
+    background: black;
+}
+
+#navbar .navbar-brand {
+    font-size: 25px;
+    font-weight: 800;
+    color: rgb(252, 3, 45);
+}
+
+#navbarSupportedContent a {
+    color: white;
+}
+
+#navbarSupportedContent a:hover {
+    border-bottom: 2px solid rgb(245, 5, 45);
+}
+
+#navbarSupportedContent button {
+    background-color: rgb(254, 5, 46);
+}
+
+section {
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+#home {
+    background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.9)), url("images/bg.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    flex-direction: column;
+}
+
+#home h1 {
+    font-size: 100px;
+    color: white;
+    letter-spacing: 3px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-shadow: 0 1px 0px rgb(239, 238, 238),
+        0 2px 0px rgb(251, 251, 251),
+        0 3px 0px rgb(242, 237, 237),
+        0 4px 0px rgb(243, 240, 240),
+        0 5px 0px rgb(224, 219, 219),
+        0 6px 0px rgb(224, 219, 219),
+        0 7px 0px rgb(224, 219, 219);
+}
+
+#home p {
+    font: 18px;
+    color: white;
+}
+
+#home .input-group {
+    width: 40%;
+    height: 45px;
+}
+
+#home .signin {
+    background-color: red;
+    border-radius: 5px;
+    margin: 0px 10px;
+}
+
+#about {
+    background: radial-gradient(circle at top right, rgb(233, 237, 233), rgb(28, 28, 27), rgb(193, 128, 9));
+}
+
+#product img {
+    width: 200px;
+    height: 200px;
+}
+
+#product h1 {
+    font-weight: 700;
+    font-size: 50px;
+    letter-spacing: 2px;
+
+}
+#product{
+    background-color: beige;
+}
+
+.card {
+    height: 300px;
+    width: 200px;
+    border-radius: 20px !important;
+    overflow: hidden;
+    align-items: center;
+    margin: 20px 60px;
+    border: none;
+}
+
+.card:hover {
+    border: none;
+    box-shadow: 0 0 20px black,
+        0 0 20px black;
+    transition-duration: 0.2s;
+    transform: scale(1.1);
+}
+
+.box{
+    width: 80% !important;
+}
+#form{
+    display: flex;
+
+}
+#contact input{
+    margin: 10px 0px
+}
+#contact img{
+    overflow: hidden;
+}
+#contact textarea{
+    margin-bottom: 10px;
+}
+#cs{
+   background-color:beige;
+    display: flex;
+    height: 700px;
+    border-radius: 15px;
+    box-shadow: 0px 0px 10px black;
+    align-items: center;
+}
